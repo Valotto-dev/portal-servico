@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços - Guia de IA para Iniciantes</title>
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Guia de Inteligência Artificial para Iniciantes</h1>
+    <p>Entenda, use e questione a IA com segurança, sem precisar saber programar.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Serviços disponíveis</h2>
+      <p>Escolha uma das opções abaixo para conhecer os serviços.</p>
+
+      <article>
+        <h3>O que é inteligência artificial</h3>
+        <p>Explicação em linguagem simples sobre como a IA aprende com exemplos e o que ela consegue (e não consegue) fazer.</p>
+        <a href="contato.html">Tirar uma dúvida</a>
+      </article>
+
+      <article>
+        <h3>Como escrever bons prompts</h3>
+        <p>Orientações para pedir o que você precisa a um assistente de IA, com contexto, objetivo e formato da resposta.</p>
+        <a href="contato.html">Solicitar orientação</a>
+      </article>
+
+      <article>
+        <h3>Uso seguro e responsável</h3>
+        <p>Cuidados com dados pessoais, conferência de informações e uso ético da IA em trabalhos e estudos.</p>
+        <a href="contato.html">Entrar em contato</a>
+      </article>
+    </section>
+
+    <section class="consulta-servico">
+      <h2>Consulte um serviço</h2>
+      <label for="servico">Escolha um serviço:</label>
+      <select id="servico">
+        <option value="">Selecione...</option>
+        <option value="o-que-e-ia">O que é inteligência artificial</option>
+        <option value="prompts">Como escrever bons prompts</option>
+        <option value="seguranca">Uso seguro e responsável</option>
+      </select>
+      <button id="btnConsultar" type="button">Consultar orientação</button>
+      <p id="resultado" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto acadêmico - Programação Web</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
