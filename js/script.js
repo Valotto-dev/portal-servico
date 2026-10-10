@@ -47,3 +47,29 @@ botaoConsultar.addEventListener("click", () => {
     resultado.textContent = "Serviço não identificado.";
   }
 });
+
+// Aula 10 - Funções + DOM: dados viram cards
+// Container vazio do HTML (id="listaServicos")
+const listaServicos = document.querySelector("#listaServicos");
+
+function renderizarServicos() {
+  // Limpa o container para não duplicar cards se a função rodar de novo
+  listaServicos.innerHTML = "";
+
+  // Para cada serviço do array, cria um card
+  servicos.forEach((servico) => {
+    const card = document.createElement("article");
+    card.classList.add("card-servico");
+
+    const titulo = document.createElement("h3");
+    titulo.textContent = servico.nome;
+
+    const descricao = document.createElement("p");
+    descricao.textContent = servico.descricao;
+
+    card.append(titulo, descricao);
+    listaServicos.appendChild(card);
+  });
+}
+
+renderizarServicos();

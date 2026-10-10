@@ -101,6 +101,14 @@ input:focus, select:focus, textarea:focus, button:focus, a:focus {
   min-height: 1.5em;
 }
 
+/* Aula 10: cards criados pelo JavaScript */
+.card-servico {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
 footer {
   text-align: center;
   padding: 20px;

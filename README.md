@@ -17,5 +17,8 @@ Projeto desenvolvido na disciplina de Programação Web (Portal de Serviços Dig
 - Serviços organizados em array de objetos
 - Testes no Console com `console.table` e `forEach`
 
+## Aula 10 - Funções e DOM
+- Catálogo de serviços criado automaticamente com `renderizarServicos()`
+
 ## Autor(a)
 Seu nome aqui
