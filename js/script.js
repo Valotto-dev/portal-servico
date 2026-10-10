@@ -1,3 +1,30 @@
+// Aula 09 - Arrays e objetos
+// ARRAY = lista [ ] ; OBJETO = um serviço { } com as propriedades nome e descricao
+const servicos = [
+  {
+    nome: "O que é inteligência artificial",
+    descricao: "Entenda em linguagem simples como a IA aprende com exemplos e o que ela consegue fazer."
+  },
+  {
+    nome: "Como escrever bons prompts",
+    descricao: "Aprenda a pedir o que precisa com contexto, objetivo e formato da resposta."
+  },
+  {
+    nome: "Uso seguro e responsável",
+    descricao: "Saiba proteger seus dados e conferir as informações antes de confiar na resposta."
+  }
+];
+
+// Teste dos dados no Console (F12). Pode apagar depois de conferir.
+console.table(servicos);
+console.log(servicos[0].nome);      // primeiro serviço: índice 0
+console.log(servicos[1].descricao); // descrição do segundo serviço
+
+// forEach = "para cada serviço da lista, execute o bloco"
+servicos.forEach((servico) => {
+  console.log(servico.nome);
+});
+
 // Aula 08 - O Portal toma decisões
 // 1) Encontrar os elementos no DOM (mesmos ids do HTML)
 const campoServico = document.querySelector("#servico");
