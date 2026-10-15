@@ -21,4 +21,4 @@ Projeto desenvolvido na disciplina de Programação Web (Portal de Serviços Dig
 - Catálogo de serviços criado automaticamente com `renderizarServicos()`
 
 ## Autor(a)
-Seu nome aqui
+João Victor
